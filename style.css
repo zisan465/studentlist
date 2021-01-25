@@ -5,26 +5,8 @@
     user-select: none;
     font-family: 'Open Sans', sans-serif;
 }
-body{
-   background:linear-gradient(-45deg,#3dc1d3,#80fdd8,#f78fb3,#546de5,#f5cd79);
-    padding-bottom:200px;
-    background-size: 400% 400%;
-    animation: change 10s ease-in-out infinite;
-}
-@keyframes change{
-    0%{
-        background-position:0 50%;
-    }
-    50%{
-        background-position:100% 50%;
-    }
-    100%{
-        background-position:0 50%;
-    }
-}
 .container{
     margin-top: 50px;
-    box-shadow:inset 0 0 20px 0  #fff;
 }
 .header-icon{
     font-size: 5rem;
